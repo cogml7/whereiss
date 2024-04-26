@@ -119,7 +119,6 @@ a {
 @media screen and (max-width: 900px) {
 	p{
 		background-color: pink;
-		font-size: 30px;
 		width: 200px;
 	}
 }
