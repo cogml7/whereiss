@@ -123,4 +123,9 @@ a {
 		width: 350px;
 		height:200px;
 	}
+	a {
+		background: linear-gradient(pink,blue);
+		color: transparent;
+		-webkit-background-clip: text;
+	}
 }
