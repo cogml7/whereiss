@@ -71,8 +71,7 @@ article {
 
 p {
 	background: radial-gradient(pink,white);
-	width: 500px;
-	height: 250px;
+
 	line-height: 1.6;
 	border-radius: 20px;
 	text-align: center;
@@ -91,8 +90,7 @@ p {
 .c1 {
 	background: radial-gradient(lightskyblue,white);
 	text-align: center;
-	width: 500px;
-	height: 250px;
+
 	
 }
 
