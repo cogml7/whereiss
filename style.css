@@ -113,8 +113,6 @@ a {
 }
 
 
-@media screen (max-width: 900px) {
-	.b1{
-		background: black;
-	}
+@media (max-width: 900px) {
+	
 }
