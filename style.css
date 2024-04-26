@@ -4,6 +4,10 @@ header {
 	text-align: center;
 }
 
+img {
+	align-items: center;
+}
+
 .one {
 	position: absolute;
 	top: 200px;
@@ -89,6 +93,8 @@ p {
 
 .c1 {
 	background: radial-gradient(lightskyblue,white);
+	text-align: center;
+	
 }
 
 .d1 {
@@ -108,4 +114,12 @@ footer {
 
 a {
 	color: black;
+}
+
+@media screen and (max-width: 900px) {
+	p{
+		background-color: pink;
+		font-size: 30px;
+		width: 200px;
+	}
 }
