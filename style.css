@@ -117,9 +117,10 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-	c1{
-		background-color: pink;
-		width: 200px;
+	.c1{
+		background: radial-gradient(lightskyblue,white);
+		text-align: center;
+		font-size: 10px;
 	}
 
 
