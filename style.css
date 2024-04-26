@@ -116,8 +116,11 @@ a {
 	color: black;
 }
 
-@media screen and (max-width: 200px) {
-	p{
+@media screen and (max-width: 900px) {
+	c1{
 		background-color: pink;
+		width: 200px;
 	}
+
+
 }
