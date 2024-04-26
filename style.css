@@ -98,16 +98,21 @@ p {
 }
 
 .e1 {
-	background: radial-gradient(lightcoral,white) ;
 	border-radius: 100px;
+	background: linear-gradient(to right top, white, #ffa69e);
 }
 
 footer {
 	text-align: center;
+	background: linear-gradient(pink,blue);
+	color: transparent;
+	-webkit-background-clip: text;
 }
 
 a {
-	color: black;
+	background: linear-gradient(pink,blue);
+	color: transparent;
+	-webkit-background-clip: text;
 }
 
 @media screen and(max-width: 900px) {
