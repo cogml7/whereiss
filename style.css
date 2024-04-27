@@ -143,10 +143,6 @@ a {
 	-webkit-background-clip: text;
 }
 
-img {
-	margin-left: 120px;
-}
-
 @media screen and(max-width: 900px) {
 	.c1 {
 		background: radial-gradient(lightskyblue,white);
@@ -164,9 +160,5 @@ img {
 		background: linear-gradient(pink,blue);
 		color: transparent;
 		-webkit-background-clip: text;
-	}
-
-	img {
-		margin-left: 0px;
 	}
 }
