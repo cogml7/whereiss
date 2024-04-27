@@ -132,6 +132,7 @@ p {
 .e1 {
 	border-radius: 100px;
 	background: radial-gradient(purple,lightyellow);
+	color: white;
 }
 
 footer {
@@ -155,21 +156,16 @@ a {
 		width: 350px;
 		height:200px;
 	}
-	li {
-		width: 160px;
-		letter-spacing: 1.4px;
-		word-break: keep-all;
-		font-size: 20px;
+	a {
+		background: linear-gradient(pink,blue);
+		color: transparent;
+		-webkit-background-clip: text;
 	}
-	.e1 {
-		border-radius: 100px;
-		background: radial-gradient(purple,lightyellow);
-		color: white;
+	footer {
+		text-align: center;
+		background: linear-gradient(pink,blue);
+		color: transparent;
+		-webkit-background-clip: text;
 	}
-	li {
-	width: 160px;
-	letter-spacing: 1.3px;
-	word-break: keep-all;
-	font-size: 21px;
-}
+
 }
