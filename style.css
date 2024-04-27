@@ -132,7 +132,6 @@ p {
 .e1 {
 	border-radius: 100px;
 	background: radial-gradient(purple,lightyellow);
-	color: white;
 }
 
 footer {
@@ -161,5 +160,10 @@ a {
 		letter-spacing: 1.4px;
 		word-break: keep-all;
 		font-size: 20px;
+	}
+	.e1 {
+		border-radius: 100px;
+		background: radial-gradient(purple,lightyellow);
+		color: white;
 	}
 }
