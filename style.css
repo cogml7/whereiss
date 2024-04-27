@@ -161,4 +161,7 @@ a {
 		color: transparent;
 		-webkit-background-clip: text;
 	}
+	img {
+		margin-left: 1px;
+	}
 }
