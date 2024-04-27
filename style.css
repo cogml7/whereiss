@@ -156,4 +156,10 @@ a {
 		width: 350px;
 		height:200px;
 	}
+	li {
+		width: 160px;
+		letter-spacing: 1.4px;
+		word-break: keep-all;
+		font-size: 20px;
+	}
 }
