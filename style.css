@@ -166,4 +166,10 @@ a {
 		background: radial-gradient(purple,lightyellow);
 		color: white;
 	}
+	li {
+	width: 160px;
+	letter-spacing: 1.3px;
+	word-break: keep-all;
+	font-size: 21px;
+}
 }
