@@ -4,11 +4,6 @@ header {
 	text-align: center;
 }
 
-img {
-	margin-left: 120px;
-	padding: 2px;
-}
-
 li {
 	width: 160px;
 	letter-spacing: 1.3px;
@@ -152,7 +147,6 @@ a {
 	.c1 {
 		background: radial-gradient(lightskyblue,white);
 		text-align: center;
-		font-size: 18px;
 		width: 350px;
 		height:200px;
 	}
@@ -167,5 +161,4 @@ a {
 		color: transparent;
 		-webkit-background-clip: text;
 	}
-
 }
