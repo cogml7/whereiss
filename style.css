@@ -1,167 +1,80 @@
-header {
-	background: black;
-	border-radius: 100px;
-	text-align: center;
-}
-
-li {
-	width: 160px;
-	letter-spacing: 1.3px;
-	word-break: keep-all;
-	font-size: 20px;
-}
-
-.m1 {
-	border-radius: 100px;
-	background: radial-gradient(pink,white);
-	text-align: center;
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.m2 {
-	border-radius: 100px;
-	background: radial-gradient(skyblue,white);
-	text-align: center;
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.one {
-	position: absolute;
-	top: 200px;
-	left: 50px;
-	width: 200px;
-	height: 50px;
-	border-radius: 100px;
-	background: radial-gradient(lightyellow,skyblue);
-	letter-spacing: 3px;
-	text-align: center;
-	list-style: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.two {
-	position: absolute;
-	top: 200px;
-	left: 300px;
-	width: 200px;
-	height: 50px;
-	border-radius: 100px;
-	background: radial-gradient(lightyellow,pink);
-	letter-spacing: 3px;
-	text-align: center;
-	list-style: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-	background: radial-gradient(lightyellow,pink);
+	width:100vw;
 	text-align: center;
-	font-size: 5vw;
-	border-radius: 100px;
+	background: lightgoldenrodyellow;
+	position: fixed;
+	text-decoration: underline wavy brown;
+}
+
+nav {
+	display: flex;
+	height: 80px;
+	padding-top:50px;
+	position: fixed;
+}
+
+ul {
+	background: lightgoldenrodyellow;
+	display: flex;
+	list-style: none;
+	height: 25px;
+}
+
+li {
+	list-style: none;
+	border: 2px solid burlywood;
+	width: 33vw;
+	text-align: center;
+	color: brown;
 }
 
 h2 {
-	background: radial-gradient(lightyellow,pink);
-	border: 2px orangered;
+	color: brown;
+	background: radial-gradient(burlywood,lightgoldenrodyellow);
 	text-align: center;
-	border-radius: 60px;
-}
-
-section {
-	border: 2px solid mistyrose;
-	width: 600px;
-}
-
-article {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	letter-spacing: 1.5px;
-	word-break: keep-all;
-	background: radial-gradient(pink,white);
-	margin: 50px;
-	border-radius: 100px;
+	border-radius:30px ;
 }
 
 p {
-	background: radial-gradient(pink,white);
-	line-height: 1.6;
-	border-radius: 20px;
+	color: black;
+	line-height: 30px;
+	word-break: keep-all;
+	letter-spacing: 2px;
 	text-align: center;
 }
 
-.a1 {
-	background: radial-gradient(lightyellow,lightskyblue);
-	border-radius: 100px;
+article {
+	background-color: lightyellow;
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+	padding-top:100px;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-.b1{
-	background: radial-gradient(lightskyblue,white);
-	border-radius: 100px;
-}
-
-.c1 {
-	background: radial-gradient(lightskyblue,white);
-	text-align: center;
+section {
 	width: 350px;
-	height: 250px;
-}
-
-.d1 {
-	background: radial-gradient(lightyellow,lightskyblue);
-	text-align: center;
-	border-radius: 100px;
-	padding: 10px;
-}
-
-.e1 {
-	border-radius: 100px;
-	background: radial-gradient(purple,lightyellow);
-	color: white;
+	height: 600px;
+	border: 1px dotted brown;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 30px;
+	border-radius: 30px;
 }
 
 footer {
-	text-align: center;
-	background: linear-gradient(pink,blue);
-	color: transparent;
-	-webkit-background-clip: text;
-}
-
-a {
-	background: linear-gradient(pink,blue);
-	color: transparent;
-	-webkit-background-clip: text;
-}
-
-@media screen and(max-width: 900px) {
-	.c1 {
-		background: radial-gradient(lightskyblue,white);
-		text-align: center;
-		width: 350px;
-		height:200px;
-	}
-
-	a {
-		background: linear-gradient(pink,blue);
-		color: transparent;
-		-webkit-background-clip: text;
-	}
-
-	footer {
-		text-align: center;
-		background: linear-gradient(pink,blue);
-		color: transparent;
-		-webkit-background-clip: text;
-	}
+	background-color: brown;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	padding: 10px;
+	color: lightgoldenrodyellow;
 }
